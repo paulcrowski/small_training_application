@@ -1,0 +1,7 @@
+#gallery ul li {
+    list-style:none;
+}
+
+.invisible {
+    display: none;
+}
