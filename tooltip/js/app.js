@@ -11,11 +11,14 @@ document.addEventListener("DOMContentLoaded", function () {
         tooltipList[i].addEventListener("mouseover", function (event) {
 
             tooltipElement = document.createElement("div");
-            var toolTipText = this.dataset.tooltip;
-
-            tooltipElement.innerHTML = toolTipText;
             this.appendChild(tooltipElement);
             toolTipElement.classList.add("otherclass");
+
+            var toolTipText = this.dataset.tooltip;
+            tooltipElement.innerHTML = toolTipText;
+
+
+
         });
     }
 
