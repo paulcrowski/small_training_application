@@ -24,9 +24,8 @@ document.addEventListener("DOMContentLoaded", function () {
       listWithPictures[visiblePicture].classList.add("invisible");
       visiblePicture--;
       if (visiblePicture < 0) {
-         visiblePicture = 2;
+         visiblePicture = listWithPictures.length-1;
       }
       listWithPictures[visiblePicture].classList.remove("invisible");
-
    });
 });
