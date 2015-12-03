@@ -1,0 +1,11 @@
+.tooltip {
+    color: red;
+}
+
+.otherclass {
+    position : absolute;
+    background: #000;
+    bottom:-150px;
+    left:0;
+    display:inline;
+ }
