@@ -2,10 +2,9 @@
     color: red;
 }
 
-.otherclass {
-    position : absolute;
-    background: #000;
-    bottom:-150px;
-    left:0;
-    display:inline;
+.tooltipShow {
+    display: inline;
+    position: absolute;
+    background-color: #2a2730;
+    color: white;
  }

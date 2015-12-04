@@ -9,15 +9,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     for ( var i=0; i < tooltipList.length; i++) {
         tooltipList[i].addEventListener("mouseover", function (event) {
-
             tooltipElement = document.createElement("div");
-            this.appendChild(tooltipElement);
-            toolTipElement.classList.add("otherclass");
+            tooltipElement.classList.add("tooltipShow");
 
             var toolTipText = this.dataset.tooltip;
             tooltipElement.innerHTML = toolTipText;
 
-
+            this.appendChild(tooltipElement);
 
         });
     }
@@ -27,7 +25,11 @@ document.addEventListener("DOMContentLoaded", function () {
             console.log("mouse out");
             this.removeChild(tooltipElement);
             tooltipElement = null;
-            toolTipElement.classList.remove("otherclass");
+            this.classList.remove("otherclass");
+
+
+
+
         });
     }
 
