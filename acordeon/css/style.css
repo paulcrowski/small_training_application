@@ -1,0 +1,9 @@
+.acordeon li {
+    list-style: none;
+}
+
+.acordeon p {
+    display : none;
+    padding: 0;
+    margin: 0;
+}
