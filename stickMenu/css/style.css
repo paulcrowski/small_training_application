@@ -1,0 +1,19 @@
+article {
+    margin: 20px;
+}
+
+.menu{
+    width: 100%;
+    background-color: cyan;
+    height: 50px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.sticky{
+    position: fixed;
+    top:0;
+    left:0;
+}
